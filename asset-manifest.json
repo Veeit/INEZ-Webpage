@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/INEZ-Webpage/static/css/main.1acd1e1b.chunk.css",
+    "main.js": "/INEZ-Webpage/static/js/main.43045bd1.chunk.js",
+    "main.js.map": "/INEZ-Webpage/static/js/main.43045bd1.chunk.js.map",
+    "runtime-main.js": "/INEZ-Webpage/static/js/runtime-main.e84dedf0.js",
+    "runtime-main.js.map": "/INEZ-Webpage/static/js/runtime-main.e84dedf0.js.map",
+    "static/js/2.cda62bc5.chunk.js": "/INEZ-Webpage/static/js/2.cda62bc5.chunk.js",
+    "static/js/2.cda62bc5.chunk.js.map": "/INEZ-Webpage/static/js/2.cda62bc5.chunk.js.map",
+    "index.html": "/INEZ-Webpage/index.html",
+    "precache-manifest.bb22311e4b926749bd9125c707f3ee41.js": "/INEZ-Webpage/precache-manifest.bb22311e4b926749bd9125c707f3ee41.js",
+    "service-worker.js": "/INEZ-Webpage/service-worker.js",
+    "static/css/main.1acd1e1b.chunk.css.map": "/INEZ-Webpage/static/css/main.1acd1e1b.chunk.css.map",
+    "static/js/2.cda62bc5.chunk.js.LICENSE": "/INEZ-Webpage/static/js/2.cda62bc5.chunk.js.LICENSE",
+    "static/media/budget.png": "/INEZ-Webpage/static/media/budget.1414a06c.png",
+    "static/media/dashboard.png": "/INEZ-Webpage/static/media/dashboard.867fb0db.png",
+    "static/media/logo.png": "/INEZ-Webpage/static/media/logo.3f15f3ac.png",
+    "static/media/project.png": "/INEZ-Webpage/static/media/project.13a81fec.png",
+    "static/media/statistics.png": "/INEZ-Webpage/static/media/statistics.1222e200.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e84dedf0.js",
+    "static/js/2.cda62bc5.chunk.js",
+    "static/css/main.1acd1e1b.chunk.css",
+    "static/js/main.43045bd1.chunk.js"
+  ]
+}
