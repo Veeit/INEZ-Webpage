@@ -11,7 +11,7 @@ import Cimprint from './Imprint'
 import CdataProtection from './datasecruity'
 
 const routing = (
-    <Router asename={'/build'}>
+    <Router asename={'/INEZ-Webpage'}>
       <div>
         <Route exact path={`${process.env.PUBLIC_URL}/`} component={App} />
         <Route path={`${process.env.PUBLIC_URL}/imprint`} component={Cimprint} />
