@@ -11,11 +11,11 @@ import Cimprint from './Imprint'
 import CdataProtection from './datasecruity'
 
 const routing = (
-    <Router>
+    <Router asename={'/build'}>
       <div>
-        <Route exact path="/" component={App} />
-        <Route path="/imprint" component={Cimprint} />
-        <Route path="/data-protection" component={CdataProtection} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={App} />
+        <Route path={`${process.env.PUBLIC_URL}/imprint`} component={Cimprint} />
+        <Route path={`${process.env.PUBLIC_URL}/data-protection`} component={CdataProtection} />
       </div>
     </Router>
   )

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Cnavigation from './View/Navigation';
 import Ctextview from './View/Ctextview';
 import CthreeText from './View/CthreeText';
@@ -23,8 +22,6 @@ function textViewModel(headline, subheadline, text, imgLeft, img) {
 }
 
 function App() {
-  console.log(logo)
-
   const headText = new textViewModel(
     "INEZ", 
     "the new kind of budget planner", 

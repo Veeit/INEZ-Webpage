@@ -9,8 +9,8 @@ render() {
         <div className="Cfooter">
             <footer>
                 <div className="left" >
-                    <p><Link to="/imprint">Imprint</Link></p>
-                    <p><Link to="/data-protection">Data protection</Link></p>
+                    <p><Link to={`${process.env.PUBLIC_URL}/imprint`}>Imprint</Link></p>
+                    <p><Link to={`${process.env.PUBLIC_URL}/data-protection`}>Data protection</Link></p>
                 </div>
                 <div className="right">
                     <img src={logo} alt="INEZ - Budget Planner logo" />
