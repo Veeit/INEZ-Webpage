@@ -1,7 +1,7 @@
 import React from 'react';
 import Ctext from './Ctext';
-import logo from './img/logo.png'
-import {Link} from 'react-router-dom'
+import logo from '../../images/logo.png'
+import { Link } from "gatsby"
 
 export default class Cfooter extends React.Component {
 render() {
@@ -9,8 +9,8 @@ render() {
         <div className="Cfooter">
             <footer>
                 <div className="left" >
-                    <p><Link to={`${process.env.PUBLIC_URL}/imprint`}>Imprint</Link></p>
-                    <p><Link to={`${process.env.PUBLIC_URL}/data-protection`}>Data protection</Link></p>
+                    <p><Link to={`/imprint`}>Imprint</Link></p>
+                    <p><Link to={`/datasecruity`}>Data protection</Link></p>
                 </div>
                 <div className="right">
                     <img src={logo} alt="INEZ - Budget Planner logo" />

@@ -1,23 +1,13 @@
-import React from 'react';
-import logo from './View/img/logo.png'
-import Cfooter from './View/footer'
-import { Link } from 'react-router-dom';
-import Cnavigation from './View/Navigation';
+import React from "react"
+import { Link } from "gatsby"
 
-class CdataProtection extends React.Component {
-    render() {
-      return (
-        <div className="dataProtection navigation">
-          <nav >
-              <div className="left" >
-                    <img src={logo} alt="INEZ - Budget Planner logo" />
-                    <p><Link to="/">INEZ</Link></p>
-              </div>
-              <div className="right">
-                <p><a href="https://github.com/users/Veeit/projects/1">bug-tracker</a> | <a href="">makerlog</a></p>
-              </div>
-          </nav>
-          <main>
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const SecondPage = () => (
+  <Layout>
+    <SEO title="Page two" />
+    <div className="dataProtection navigation">
           <div>
             <h1>Datenschutzerklärung</h1>
             <h2>1. Datenschutz auf einen Blick</h2>
@@ -79,11 +69,8 @@ class CdataProtection extends React.Component {
             <h3>Google Web Fonts</h3>
             <p>Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten so genannte Web Fonts, die von Google bereitgestellt werden. Die Google Fonts sind lokal installiert. Eine Verbindung zu Servern von Google findet dabei nicht statt.</p>
             </div>
-          </main>
-          <Cfooter></Cfooter>
         </div>
-      );
-    }
-  }
+  </Layout>
+)
 
-export default CdataProtection;
+export default SecondPage
