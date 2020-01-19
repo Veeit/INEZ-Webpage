@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `INEZ`,
     description: `INEZ - The new way to budget your money`,
-    author: `@gatsbyjs`,
+    author: `Veit Progl`,
+    siteUrl: `https://www.inez.tech`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `INEZ`,
+        short_name: `INEZ`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
