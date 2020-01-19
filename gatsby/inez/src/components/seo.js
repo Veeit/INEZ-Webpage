@@ -53,8 +53,12 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:url`,
+          content: `https://inez.tech`,
+        },
+        {
           property: "og:image",
-          content: logo,
+          content: 'https://inez.tech/' + logo,
         },
         {
           name: `twitter:card`,

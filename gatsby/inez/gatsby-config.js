@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `INEZ`,
-    description: `INEZ - The new way to budget your money`,
+    description: `The new way to budget your money. The secure ans easy way to budget. Build your own personal budget plan.`,
     author: `Veit Progl`,
     siteUrl: `https://www.inez.tech`,
   },
