@@ -1,9 +1,10 @@
 .Ctextview
-    width: 100%
+    width: auto
     position: relative
     display: grid
     grid-template-columns: 1fr 1fr
     grid-column-gap: 30px
+    padding: 20px;
 
     @media screen and ( max-width: 600px)
         grid-template-columns: 1fr 
@@ -22,4 +23,26 @@
     .right
         width: 100%
         // height: 
+
+header 
+    padding-bottom: 30px
+    .Ctextview
+        grid-template-columns: 1fr 3fr
+        @media screen and ( max-width: 600px)
+            grid-template-columns: 1fr
+
+.background 
+        background: #26292D
+        border: solid 1px #17191c
+        border-radius: 2px
+.main 
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 30px
+    @media screen and ( max-width: 600px)
+        grid-template-columns: 1fr
+
+    > .Ctextview
+        width: 50%
+        display: inline
         

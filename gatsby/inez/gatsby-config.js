@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `INEZ`,
+    title: `Veit Progl`,
     description: `The new way to budget your money. The secure ans easy way to budget. Build your own personal budget plan.`,
     author: `Veit Progl`,
-    siteUrl: `https://www.inez.tech`,
+    siteUrl: `https://www.veit.pro`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `INEZ`,
-        short_name: `INEZ`,
+        name: `Veit Progl`,
+        short_name: `Veit Progl`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

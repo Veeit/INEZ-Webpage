@@ -42,7 +42,7 @@ const features = [
       "", 
       "Add a Project", 
       "Plan your taks with a project. A project is like to do list. You can add your taks and products. Add a sub project or budget. Make it yours",
-      "false", 
+      "true", 
       projectImg),
   new textViewModel(
       "", 
@@ -57,32 +57,36 @@ const IndexPage = () => (
     <SEO title="Home" />
     
     <header className="App-header">
-        <Ctextview 
-            imgLeft={headText.imgLeft} 
-            img={headText.img} 
-            headline={headText.headline}
-            subheadline={headText.subheadline}
-            text={headText.text}
-            ></Ctextview>
-      </header>
-      <main>
-        <h4>Features</h4>
-        {
-          features.map(element => {
-            return <Ctextview 
-            key={element.id} 
+      <div className="background">
+      <Ctextview
+          key="ww" 
+          imgLeft="true"
+          img="https://veit.dev/img/veit.4d1aeb48.png"
+          headline="Veit Progl"
+          subheadline="Software developer"
+          text="I'm a software developer, Swift Developer, Web Developer, Web and App Deigner, 3D printing Nerd, Maker, IoT Interessted and SwiftUI expert. My goal is it to create things that the user loves."
+          ></Ctextview>
+      </div>
+    </header>
+    <main>
+      <div className="main">
+      {
+        features.map(element => {
+          return <div className="background">
+            <Ctextview 
+          key={element.id} 
 
-            imgLeft={element.imgLeft} 
-            img={element.img} 
-            headline={element.headline}
-            subheadline={element.subheadline}
-            text={element.text}
-            ></Ctextview>
-          })
-        }
-
-        <CthreeText></CthreeText>
-        <iframe title="Makerlog Embed" height="200" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/4300/stats_embed"></iframe>
+          imgLeft={element.imgLeft} 
+          img={element.img} 
+          headline={element.headline}
+          subheadline={element.subheadline}
+          text={element.text}
+          ></Ctextview>
+          </div>
+        })
+      }
+      </div>
+      <iframe title="Makerlog Embed" height="200" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/4300/stats_embed"></iframe>
 
       </main>
       
