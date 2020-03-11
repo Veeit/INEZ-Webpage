@@ -1,17 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Ctextview from '../components/View/Ctextview';
-import CthreeText from '../components/View/CthreeText';
 
-import dashbaordImg from '../images/dashboard.png'
-import budgetImg from '../images/budget.png'
-import projectImg from '../images/project.png'
-import statisticsImg from '../images/statistics.png'
 import meImg from '../images/IMG_2870.jpg'
 import octocatImg from '../images/Octocat.png'
 import makerlog from '../images/makerlog.png'

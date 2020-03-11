@@ -1,6 +1,4 @@
 import React from 'react';
-import Ctext from './Ctext';
-import logo from '../../images/logo.png'
 import { Link } from "gatsby"
 
 export default class Cfooter extends React.Component {
