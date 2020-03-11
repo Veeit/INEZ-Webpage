@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Veit Progl`,
-    description: `The new way to budget your money. The secure ans easy way to budget. Build your own personal budget plan.`,
+    description: `A developer for apple apps and webpages (React, Vue, NodeJS)`,
     author: `Veit Progl`,
     siteUrl: `https://www.veit.pro`,
   },
@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://inez.tech',
-        sitemap: 'https://www.inez.tech/sitemap.xml',
+        host: 'https://www.veit.pro',
+        sitemap: 'https://www.veit.pro/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
