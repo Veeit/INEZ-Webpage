@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import logo from '../images/logo.png'
+import logo from '../images/IMG_2870.jpg'
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -54,11 +54,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:url`,
-          content: `https://inez.tech`,
+          content: `https://veit.pro`,
         },
         {
           property: "og:image",
-          content: 'https://inez.tech/' + logo,
+          content: 'https://veit.pro' + logo,
         },
         {
           name: `twitter:card`,
@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: "keywords",
-          content: "Budget Planner, Budget, Plan, Understand, Verstehen, Ausgaben, expenses, add, project, app, iOS 13, apple, new, best. mobil, finanzes, finances",
+          content: "Veit Progl, Developer, Swift, Web, React, Vue, SwiftUI, Swift 5, App, App Developer",
           lang: "en"
         }
       ].concat(meta)}
