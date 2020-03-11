@@ -19,6 +19,8 @@ $navigationHeight: 60px
         width: 100%     
         display: grid
         grid-template-columns: 1fr 1fr   
+        @media screen and ( max-width: 600px)
+            grid-template-columns: 1fr
 
         > div 
             height: $navigationHeight
@@ -29,9 +31,6 @@ $navigationHeight: 60px
         .left 
             p
                 display: inline-block
-                position: absoulte
-                top: 50%
-                transform: translate(0, -50%)
                 font-size: 2em
                 margin-left: 15px
                 font-weight: bold
@@ -43,6 +42,8 @@ $navigationHeight: 60px
                 transform: translate(0, -50%)
                 text-align: right
                 font-weight: bold
+                @media screen and ( max-width: 600px)
+                    text-align: center
         
         img 
             height: $navigationHeight

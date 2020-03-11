@@ -11,9 +11,7 @@ render() {
                 <div className="left" >
                     <p><Link to={`/imprint`}>Imprint</Link></p>
                     <p><Link to={`/datasecruity`}>Data protection</Link></p>
-                </div>
-                <div className="right">
-                    <img src={logo} alt="INEZ - Budget Planner logo" />
+                    <p><Link to={`/contact`}>Contact</Link></p>
                 </div>
             </footer>
         </div>

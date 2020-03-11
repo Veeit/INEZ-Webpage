@@ -12,44 +12,69 @@ import dashbaordImg from '../images/dashboard.png'
 import budgetImg from '../images/budget.png'
 import projectImg from '../images/project.png'
 import statisticsImg from '../images/statistics.png'
+import meImg from '../images/IMG_2870.jpg'
+import octocatImg from '../images/Octocat.png'
+import makerlog from '../images/makerlog.png'
+import logbot from '../images/logbot.png'
+import INEZ from '../images/inez.png'
+import shopinglist from '../images/shopinglist.png'
+import dyslexia from '../images/dyslexia.png'
 
 const uuidv4 = require('uuid/v4');
 
-function textViewModel(headline, subheadline, text, imgLeft, img) {
+function textViewModel(headline, subheadline, text, imgLeft, img, link) {
   this.headline = headline;
   this.subheadline = subheadline;
   this.text = text;
   this.imgLeft = imgLeft;
   this.img = img;
-  this.id = String(uuidv4())
+  this.id = String(uuidv4());
+  this.link = link;
 }
-
-const headText = new textViewModel(
-  "INEZ", 
-  "the new kind of budget planner", 
-  "INEZ has been developed with a completely new approach to the ideal planning of your budget",
-  "false", 
-  dashbaordImg)
 
 const features = [
   new textViewModel(
       "", 
-      "Add a Budget", 
-      "Controll your money with Budgets, you can add unlimited budgets inside each other and plan your expenses precisely.",
+      "GitHub", 
+      "Most of my projects are opensource on GitHub, I love opensource!",
       "true", 
-      budgetImg),
+      octocatImg,
+      "https://github.com/veeit"),
+  new textViewModel(
+    "", 
+    "Makerlog", 
+    "I daily log my work / tasks on makerlog, go check it out!",
+    "true", 
+    makerlog,
+    "https://getmakerlog.com/@veitpro"),
   new textViewModel(
       "", 
-      "Add a Project", 
-      "Plan your taks with a project. A project is like to do list. You can add your taks and products. Add a sub project or budget. Make it yours",
+      "INEZ", 
+      "I started to create a opensource budgetplanner, you can find it on github a webpage for it.",
       "true", 
-      projectImg),
+      INEZ,
+      "https://inez.tech"),
   new textViewModel(
       "", 
-      "Understand your expenses", 
-      "INEZ has easy to understand statisks so you can finaly understand your expenses. There is no limit in history so you can see all of your improvements.",
+      "LogBot", 
+      "LogBot is a makerlog client for makerlog, it will be relased to the app store soon (SwiftUI has some bugs that need to get fixed before), but is on github",
       "true", 
-      statisticsImg)
+      logbot,
+      "https://github.com/Veeit/makerslog-App"),
+  new textViewModel(
+    "", 
+    "ShopingList", 
+    "Shoping List is a eraly version of INEZ, it is a shoping list with AI for macOS and iOS",
+    "true", 
+    shopinglist,
+    "https://github.com/Veeit/ShopingList"),
+  new textViewModel(
+    "", 
+    "Dyslexia is a problem", 
+    "This is my swift playground for wwdc 2019, it won. I tried to tell people how it is to live with dyslexia and tried to let them expierance it.",
+    "true", 
+    dyslexia,
+    "https://github.com/Veeit/wwdc-2019-dyslexia_is_a_problem")
   ]
 
 const IndexPage = () => (
@@ -61,10 +86,10 @@ const IndexPage = () => (
       <Ctextview
           key="ww" 
           imgLeft="true"
-          img="https://veit.dev/img/veit.4d1aeb48.png"
+          img={meImg}
           headline="Veit Progl"
           subheadline="Software developer"
-          text="I'm a software developer, Swift Developer, Web Developer, Web and App Deigner, 3D printing Nerd, Maker, IoT Interessted and SwiftUI expert. My goal is it to create things that the user loves."
+          text="I'm a software developer, Swift Developer, Web Developer, Web and App Deigner, 3D printing Nerd, Maker, IoT Interessted and SwiftUI expert. My goal is it to create things that the user loves. I won a WWDC scholarship in 2019."
           ></Ctextview>
       </div>
     </header>
@@ -81,6 +106,7 @@ const IndexPage = () => (
           headline={element.headline}
           subheadline={element.subheadline}
           text={element.text}
+          link={element.link}
           ></Ctextview>
           </div>
         })

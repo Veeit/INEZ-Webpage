@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Datenschutzerklaerung" />
     <div className="dataProtection navigation">
           <div>
             <h1>Datenschutzerklärung</h1>

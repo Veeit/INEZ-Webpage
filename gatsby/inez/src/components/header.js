@@ -1,17 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from '../images/logo.png'
 
 const Header = ({ siteTitle }) => (
   <div className="navigation">
     <nav >
         <div className="left" >
-              <img src={logo} alt="INEZ - Budget Planner logo" />
-              <p>{siteTitle}</p>
+        <Link to={`/`}><p>{siteTitle}</p></ Link>
         </div>
         <div className="right">
-          <p><a href="https://github.com/users/Veeit/projects/1">bug-tracker</a> | <a href="https://getmakerlog.com/@veitpro">makerlog</a></p>
+          <p><a href="https://medium.com/@VeitProgl">Medium</a> | <a href="https://twitter.com/VoxelVoxels">Twitter</a> | <a href="https://github.com/veeit">GitHub</a> | <a href="https://getmakerlog.com/@veitpro">makerlog</a></p>
         </div>
     </nav>
   </div>

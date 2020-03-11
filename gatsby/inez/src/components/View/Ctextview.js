@@ -28,28 +28,33 @@ class Ctextview extends React.Component {
     const headline = this.props.headline;
     const subheadline = this.props.subheadline;
     const text = this.props.text
+    const link = this.props.link
 
     if (imgLeft === "false" && this.state.width > 600) {
       return (
-        <div className="Ctextview">
-          <div className="left">
-            <Ctext headline={headline} subheadline={subheadline} text={text}/>
+        <a href={link}>
+          <div className="Ctextview">
+            <div className="left">
+              <Ctext headline={headline} subheadline={subheadline} text={text}/>
+            </div>
+            <div className="right">
+              <img src={imgSrc} alt="dashbaord" />
+            </div>
           </div>
-          <div className="right">
-            <img src={imgSrc} alt="dashbaord" />
-          </div>
-        </div>
+        </a>
       );
     } else {
       return (
-        <div className="Ctextview">
-          <div className="left">
-            <img src={imgSrc} alt="dashbaord" />
+        <a href={link}>
+          <div className="Ctextview">
+            <div className="left">
+              <img src={imgSrc} alt="dashbaord" />
+            </div>
+            <div className="right">
+              <Ctext headline={headline} subheadline={subheadline} text={text}/>
+            </div>
           </div>
-          <div className="right">
-            <Ctext headline={headline} subheadline={subheadline} text={text}/>
-          </div>
-        </div>
+        </a>
       );
     }
   }
@@ -61,7 +66,8 @@ Ctextview.propTypes = {
   
   headline: PropTypes.string,
   subheadline: PropTypes.string,
-  text: PropTypes.string
+  text: PropTypes.string,
+  link: PropTypes.string
 }
 
 export default Ctextview;

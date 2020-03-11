@@ -8,6 +8,17 @@ $maxContendWidth: 950px
 
 body 
     background-color: #0B0C0D
+    .colum2
+        display: grid
+        grid-template-columns: 1fr 1fr
+        color: #ffffff
+        grid-gap: 30px
+        @media screen and ( max-width: 600px)
+            grid-template-columns: 1fr
+        img 
+            max-width: 100%
+            width: auto
+            height: auto
     .imprint 
          .Cfooter 
             position: absolute
@@ -15,6 +26,8 @@ body
 
     .dataProtection, .imprint  
         min-height: 100vh
+        @media screen and ( max-width: 600px)
+            width: auto
         nav
             padding-top: 20px
             padding-bottom: 50px
