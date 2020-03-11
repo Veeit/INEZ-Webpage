@@ -3,6 +3,11 @@
 @import 'threeText'
 @import 'footer'
 @import 'text'
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
 $maxContendWidth: 950px
 
@@ -39,7 +44,7 @@ body
         color: white
         font-size: 16px
         padding: 0 20px
-        font-family: Helvetica Neue, Helvetica,  Roboto, sans-serif
+        font-family: 'Inter', Helvetica Neue, Helvetica,  Roboto, sans-serif
 
         main 
             iframe 
