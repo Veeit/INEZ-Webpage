@@ -1,6 +1,6 @@
 import React from 'react';
 import Ctext from './Ctext';
-import logo from '../../images/logo.png'
+// import logo from '../../images/logo.png'
 import { Link } from "gatsby"
 
 export default class Cfooter extends React.Component {
@@ -13,7 +13,7 @@ render() {
                     <p><Link to={`/datasecruity`}>Data protection</Link></p>
                 </div>
                 <div className="right">
-                    <img src={logo} alt="INEZ - Budget Planner logo" />
+                    <img src="/images/logo.png" alt="WhatsLeft" />
                 </div>
             </footer>
         </div>

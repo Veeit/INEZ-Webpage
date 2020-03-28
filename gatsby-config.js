@@ -3,7 +3,7 @@ module.exports = {
     title: `WhatsLeft`,
     description: `WhatsLeft ist eine kostenlose Plattform auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können.`,
     author: `Veit Progl`,
-    siteUrl: `https://www.inez.tech`,
+    siteUrl: `https://whatsleft-landingpage.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://inez.tech',
-        sitemap: 'https://www.inez.tech/sitemap.xml',
+        host: 'https://whatsleft-landingpage.netlify.com',
+        sitemap: 'https://whatsleft-landingpage.netlify.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

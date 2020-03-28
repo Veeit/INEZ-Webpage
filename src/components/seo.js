@@ -9,7 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import logo from '../images/logo.png'
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -54,11 +53,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:url`,
-          content: `https://inez.tech`,
+          content: `https://whatsleft-landingpage.netlify.com`,
         },
         {
           property: "og:image",
-          content: 'https://inez.tech/' + logo,
+          content: 'https://whatsleft-landingpage.netlify.comimages/logo.png',
         },
         {
           name: `twitter:card`,

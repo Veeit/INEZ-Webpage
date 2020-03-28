@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <div className="navigation">
     <nav >
         <div className="left" >
-              <img src='/images/logo.png' alt="Whatsleft - logo" />
+              <img src="/images/logo.png" alt="Whatsleft - logo" />
               <p>{siteTitle}</p>
         </div>
         <div className="right">
