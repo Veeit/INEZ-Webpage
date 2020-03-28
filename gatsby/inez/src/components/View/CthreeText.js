@@ -15,18 +15,18 @@ render() {
     const threeText = [
         new textViewModel(
             "", 
-            "scan your receipt", 
-            "update your budget based on your receipt. There is no faster way to update your budget."
+            "WhatsLeft ist Sicher", 
+            "Wir speichern keine personen gebundenen daten, alles ist anonym. Das ist der grund warum wir auch keinen Login in der app haben "
             ),
         new textViewModel(
             "", 
-            "INEZ is save", 
-            "INEZ is 100% save. We don’t send your data to any server to analyse it. "
+            "WhatsLeft ist überall", 
+            "Wir haben nicht nur eine iphone app sondern auch eine Web app und eine Andorid App. Somit kann jeder WhatsLeft nutzen und anderen Helfen!"
             ),
         new textViewModel(
             "", 
-            "Budget with AI", 
-            "All your budgets are analysed with AI to optimse your next shoping tip.")
+            "Weltweit nutzbar", 
+            "Wir sind nicht nur auf Deutschland limitiert. Du kannst WhatsLeft weltweit einsetzen!")
         ]
  
     return (

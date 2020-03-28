@@ -7,11 +7,11 @@ const Header = ({ siteTitle }) => (
   <div className="navigation">
     <nav >
         <div className="left" >
-              <img src={logo} alt="INEZ - Budget Planner logo" />
+              <img src={logo} alt="Whatsleft - logo" />
               <p>{siteTitle}</p>
         </div>
         <div className="right">
-          <p><a href="https://github.com/users/Veeit/projects/1">bug-tracker</a> | <a href="https://getmakerlog.com/@veitpro">makerlog</a></p>
+          <p><a href="https://whatsleft.wirvsvirus.net">Web App</a> | <a href="https://testflight.apple.com/join/695UDaNq">iOS app</a> | <a href="/">Android App</a></p>
         </div>
     </nav>
   </div>

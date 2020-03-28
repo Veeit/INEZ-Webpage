@@ -1,17 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Ctextview from '../components/View/Ctextview';
 import CthreeText from '../components/View/CthreeText';
 
-import dashbaordImg from '../images/dashboard.png'
-import budgetImg from '../images/budget.png'
-import projectImg from '../images/project.png'
-import statisticsImg from '../images/statistics.png'
+import dashbaordImg from '../images/header-img.png'
+import listImg from '../images/iphone-Liste.png'
+import stockImg from '../images/iphone-Stock.png'
+import editImg from '../images/iphone-edit.png'
 
 const uuidv4 = require('uuid/v4');
 
@@ -25,31 +23,31 @@ function textViewModel(headline, subheadline, text, imgLeft, img) {
 }
 
 const headText = new textViewModel(
-  "INEZ", 
-  "the new kind of budget planner", 
-  "INEZ has been developed with a completely new approach to the ideal planning of your budget",
+  "WahtsLeft", 
+  "wir halten den laden an laufen!", 
+  "WhatsLeft ist eine kostenlose Plattform auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können. Das Projekt WhatsLeft ist durch den Hackathon der Deutsche Bundesregierung entschanden #WirVsVirus!",
   "false", 
   dashbaordImg)
 
 const features = [
   new textViewModel(
-      "", 
-      "Add a Budget", 
-      "Controll your money with Budgets, you can add unlimited budgets inside each other and plan your expenses precisely.",
-      "true", 
-      budgetImg),
+    "", 
+    "Finde dein Laden", 
+    "WhatsLeft benutzt die Google Maps API um alle Läden der gegend zu finden, somit ist garantiert das auch der Laden bei dir um die Ecke bei uns zu finden ist.",
+    "false", 
+    listImg),
   new textViewModel(
       "", 
-      "Add a Project", 
-      "Plan your taks with a project. A project is like to do list. You can add your taks and products. Add a sub project or budget. Make it yours",
-      "false", 
-      projectImg),
-  new textViewModel(
-      "", 
-      "Understand your expenses", 
-      "INEZ has easy to understand statisks so you can finaly understand your expenses. There is no limit in history so you can see all of your improvements.",
+      "Einsicht in Warenbestände", 
+      "Lass dir für deinen Supermarkt den Warenbestand für unsere Produktgruppen anzeigen! Somit musst du nie wieder zum Supermarkt gehen der doch nicht die Produkte hat die du wirklich willst.",
       "true", 
-      statisticsImg)
+      stockImg),
+  new textViewModel(
+    "", 
+    "Update den Warenbestand", 
+    "Halte andere auf den laufenden was akuell in den Laden verfügbar ist und was nicht. Das hilft nicht nur unnötige wege zu ersparen sonderen auch den Laden möglichst leer zu halten und somit das infektionsrisiko für Corvid-19 zu verringern.",
+    "false", 
+    editImg),
   ]
 
 const IndexPage = () => (
@@ -82,8 +80,6 @@ const IndexPage = () => (
         }
 
         <CthreeText></CthreeText>
-        <iframe title="Makerlog Embed" height="200" scrolling="no" frameborder="0" allowtransparency="true" src="https://api.getmakerlog.com/users/4300/stats_embed"></iframe>
-
       </main>
       
   </Layout>

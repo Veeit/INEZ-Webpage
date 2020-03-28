@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `INEZ`,
-    description: `The new way to budget your money. The secure ans easy way to budget. Build your own personal budget plan.`,
+    title: `WhatsLeft`,
+    description: `WhatsLeft ist eine kostenlose Plattform auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können.`,
     author: `Veit Progl`,
     siteUrl: `https://www.inez.tech`,
   },
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `INEZ`,
-        short_name: `INEZ`,
+        name: `WhatsLeft`,
+        short_name: `WhatsLeft`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -44,6 +44,37 @@ module.exports = {
         trackingId: "UA-156195420-1",
       },
     },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/favicon.png",
+  
+        // WebApp Manifest Configuration
+        appName: null, // Inferred with your package.json
+        appDescription: null,
+        developerName: null,
+        developerURL: null,
+        dir: 'auto',
+        lang: 'en-US',
+        background: '#fff',
+        theme_color: '#fff',
+        display: 'standalone',
+        orientation: 'any',
+        start_url: '/?homescreen=1',
+        version: '1.0',
+  
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          yandex: false,
+          windows: false
+        }
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
