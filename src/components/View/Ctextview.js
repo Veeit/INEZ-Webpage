@@ -29,29 +29,16 @@ class Ctextview extends React.Component {
     const subheadline = this.props.subheadline;
     const text = this.props.text
 
-    if (imgLeft === "false" && this.state.width > 600) {
-      return (
-        <div className="Ctextview">
-          <div className="left">
-            <Ctext headline={headline} subheadline={subheadline} text={text}/>
-          </div>
-          <div className="right">
-            <img src={imgSrc} alt="dashbaord" />
-          </div>
+    return (
+      <div className={"Ctextview " + (imgLeft == "false" ? "" : "revered")}>
+        <div className="left">
+          <Ctext headline={headline} subheadline={subheadline} text={text}/>
         </div>
-      );
-    } else {
-      return (
-        <div className="Ctextview">
-          <div className="left">
-            <img src={imgSrc} alt="dashbaord" />
-          </div>
-          <div className="right">
-            <Ctext headline={headline} subheadline={subheadline} text={text}/>
-          </div>
+        <div className="right">
+          <img src={imgSrc} alt="dashbaord" />
         </div>
-      );
-    }
+      </div>
+    );
   }
 }
 

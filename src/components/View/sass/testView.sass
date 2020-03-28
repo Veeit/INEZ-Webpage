@@ -1,12 +1,21 @@
 .Ctextview
+    &.revered
+        grid-template-areas: "img text"
     width: 100%
     position: relative
     display: grid
     grid-template-columns: 1fr 1fr
+    grid-template-areas: "text img"
     grid-column-gap: 30px
+
+    .left
+        grid-area: text
+    .right
+        grid-area: img
 
     @media screen and ( max-width: 600px)
         grid-template-columns: 1fr 
+        grid-template-areas: "img" "text"
         margin-top: 70px
         // grid-row-gap: 40px
         &:first-of-type
