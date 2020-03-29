@@ -22,7 +22,7 @@ const headText = new textViewModel(
   "Wir halten den Laden am Laufen!", 
   "WhatsLeft ist eine kostenlose Plattform, auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können. Das Projekt WhatsLeft ist durch den Hackathon der Deutsche Bundesregierung entstanden #WirVsVirus!",
   "false", 
-  "/images/header-img.png")
+  "/images/light/header-img.png")
 
 const features = [
   new textViewModel(
@@ -30,19 +30,19 @@ const features = [
     "Finde deinen Laden", 
     "WhatsLeft benutzt die Google Maps API, um alle Läden der Gegend zu finden. Somit ist garantiert, dass auch der Laden bei dir um die Ecke bei uns zu finden ist.",
     "false", 
-    '/images/iphone-Liste.png'),
+    '/images/light/iphone-Liste.png'),
   new textViewModel(
       "", 
       "Einsicht in Warenbestände", 
       "Lass dir für deinen Supermarkt den Warenbestand für unsere Produktgruppen anzeigen! Somit musst du nie wieder zum Supermarkt gehen, der doch nicht die Produkte hat, die du wirklich willst.",
       "true", 
-      '/images/iphone-Stock.png'),
+      '/images/light/iphone-Stock.png'),
   new textViewModel(
     "", 
     "Update den Warenbestand", 
     "Halte andere darüber auf dem Laufenden, was aktuell im Laden verfügbar ist und was nicht. Das hilft nicht nur unnötige Wege zu sparen, sondern auch den Laden möglichst leer zu halten und somit das Infektionsrisiko für Covid-19 zu verringern.",
     "false", 
-    'images/iphone-edit.png'),
+    'images/light/iphone-edit.png'),
   ]
 
 const IndexPage = () => (
@@ -75,6 +75,15 @@ const IndexPage = () => (
         }
 
         <CthreeText></CthreeText>
+        <div className="Download">
+          <h4>Lade unsere App herunter</h4>
+          <div>
+            <div>
+              <img src="images/AppStore-Badge.svg" alt="Laden im App Store" title="Laden im App Store" height="50" width="150"></img>
+              <img src="images/google-play-badge.png" alt="Laden im Play Store" title="Laden im Play Store" height="50" width="170"></img>
+            </div>
+          </div>
+        </div>
       </main>
       
   </Layout>

@@ -8,6 +8,25 @@ $maxContendWidth: 950px
 
 body 
     background-color: #26292D
+    .Download
+        padding-top: 50px
+
+        > div > div
+            display: inline-block
+            position: relative
+            left: 50%
+            transform: translate(-50%)
+            > img:first-of-type
+                padding-right: 20px
+            @media screen and ( max-width: 600px)
+                > img 
+                    &:first-of-type
+                        padding-right: 0px
+                        padding-bottom: 15px
+                    position: relative
+                    left: 50%
+                    transform: translate(-50%)
+
     .imprint 
          .Cfooter 
             position: absolute
