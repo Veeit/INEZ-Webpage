@@ -15,13 +15,13 @@ render() {
     const threeText = [
         new textViewModel(
             "", 
-            "WhatsLeft ist Sicher", 
-            "Wir speichern keine personen gebundenen daten, alles ist anonym. Das ist der grund warum wir auch keinen Login in der app haben "
+            "WhatsLeft ist sicher", 
+            "Wir speichern keine personenbezogenen Daten, alles ist anonym. Das ist der Grund, warum wir keinen Login in unserer App haben."
             ),
         new textViewModel(
             "", 
             "WhatsLeft ist überall", 
-            "Wir haben nicht nur eine iphone app sondern auch eine Web app und eine Andorid App. Somit kann jeder WhatsLeft nutzen und anderen Helfen!"
+            "Wir haben nicht nur eine App für Android und iPhone, sondern WhatsLeft ist auch über eine Web App erreichbar. Somit kann jeder WhatsLeft nutzen und anderen helfen!"
             ),
         new textViewModel(
             "", 

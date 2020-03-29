@@ -18,29 +18,29 @@ function textViewModel(headline, subheadline, text, imgLeft, img) {
 }
 
 const headText = new textViewModel(
-  "WahtsLeft", 
-  "wir halten den laden an laufen!", 
-  "WhatsLeft ist eine kostenlose Plattform auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können. Das Projekt WhatsLeft ist durch den Hackathon der Deutsche Bundesregierung entschanden #WirVsVirus!",
+  "WhatsLeft", 
+  "Wir halten den Laden am Laufen!", 
+  "WhatsLeft ist eine kostenlose Plattform, auf der die Nutzer Warenbestände einzelner Produktgruppen in den Supermärkten ihrer Umgebung einsehen und aktualisieren können. Das Projekt WhatsLeft ist durch den Hackathon der Deutsche Bundesregierung entstanden #WirVsVirus!",
   "false", 
   "/images/header-img.png")
 
 const features = [
   new textViewModel(
     "", 
-    "Finde dein Laden", 
-    "WhatsLeft benutzt die Google Maps API um alle Läden der gegend zu finden, somit ist garantiert das auch der Laden bei dir um die Ecke bei uns zu finden ist.",
+    "Finde deinen Laden", 
+    "WhatsLeft benutzt die Google Maps API, um alle Läden der Gegend zu finden. Somit ist garantiert, dass auch der Laden bei dir um die Ecke bei uns zu finden ist.",
     "false", 
     '/images/iphone-Liste.png'),
   new textViewModel(
       "", 
       "Einsicht in Warenbestände", 
-      "Lass dir für deinen Supermarkt den Warenbestand für unsere Produktgruppen anzeigen! Somit musst du nie wieder zum Supermarkt gehen der doch nicht die Produkte hat die du wirklich willst.",
+      "Lass dir für deinen Supermarkt den Warenbestand für unsere Produktgruppen anzeigen! Somit musst du nie wieder zum Supermarkt gehen, der doch nicht die Produkte hat, die du wirklich willst.",
       "true", 
       '/images/iphone-Stock.png'),
   new textViewModel(
     "", 
     "Update den Warenbestand", 
-    "Halte andere auf den laufenden was akuell in den Laden verfügbar ist und was nicht. Das hilft nicht nur unnötige wege zu ersparen sonderen auch den Laden möglichst leer zu halten und somit das infektionsrisiko für Corvid-19 zu verringern.",
+    "Halte andere darüber auf dem Laufenden, was aktuell im Laden verfügbar ist und was nicht. Das hilft nicht nur unnötige Wege zu sparen, sondern auch den Laden möglichst leer zu halten und somit das Infektionsrisiko für Covid-19 zu verringern.",
     "false", 
     'images/iphone-edit.png'),
   ]
