@@ -36,13 +36,13 @@ const features = [
       "Einsicht in Warenbestände", 
       "Lass dir für deinen Supermarkt den Warenbestand für unsere Produktgruppen anzeigen! Somit musst du nie wieder zum Supermarkt gehen, der doch nicht die Produkte hat, die du wirklich willst.",
       "true", 
-      '/images/light/iphone-Stock.png'),
+      '/images/light/andorid-stock.png'),
   new textViewModel(
     "", 
     "Update den Warenbestand", 
     "Halte andere darüber auf dem Laufenden, was aktuell im Laden verfügbar ist und was nicht. Das hilft nicht nur unnötige Wege zu sparen, sondern auch den Laden möglichst leer zu halten und somit das Infektionsrisiko für Covid-19 zu verringern.",
     "false", 
-    'images/light/iphone-edit.png'),
+    'images/light/web-edit.png'),
   ]
 
 const IndexPage = () => (
