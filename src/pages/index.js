@@ -79,9 +79,13 @@ const IndexPage = () => (
           <h4>Lade unsere App herunter</h4>
           <div>
             <div>
-              <img src="images/AppStore-Badge.svg" alt="Laden im App Store" title="Laden im App Store" height="50" width="150"></img>
+              <a href="https://testflight.apple.com/join/695UDaNq"><img src="images/AppStore-Badge.svg" alt="Laden im App Store" title="Laden im App Store" height="50" width="150"></img></a>
               <img src="images/google-play-badge.png" alt="Laden im Play Store" title="Laden im Play Store" height="50" width="170"></img>
             </div>
+          </div>
+          <div className="link">
+            <h3>Kein bock auf app ?</h3>
+            <a href="https://whatsleft.wirvsvirus.net">Nutz unsere Web App</a>
           </div>
         </div>
       </main>
