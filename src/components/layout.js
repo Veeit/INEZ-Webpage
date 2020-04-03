@@ -9,10 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Header from "./navigation"
 // import "./layout.css"
-import "./View/sass/master.sass"
-import Cfooter from './View/footer'
+import "./sass/master.sass"
+import Cfooter from './footer'
 
 
 const Layout = ({ children }) => {

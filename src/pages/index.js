@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Ctextview from '../components/View/Ctextview';
+import Ctextview from '../components/Ctextview';
 
 import meImg from '../images/IMG_2870.jpg'
 import octocatImg from '../images/Octocat.png'
