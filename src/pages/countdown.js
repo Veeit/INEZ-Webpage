@@ -40,6 +40,10 @@ const CountdownPage = () => (
           <h2>Schriftliche Prüfung:</h2>
           <Countdown date={Date.parse('18 Jun 2020 18:00:00 GMT')} renderer={rendererSchriftlichePrueftung} />
         </div>
+        <div className="countdown">
+          <h2>Abgabe der Doku:</h2>
+          <Countdown date={Date.parse('04 May 2020 23:50:00 GMT')} renderer={rendererSchriftlichePrueftung} />
+        </div>
     </div>
   </Layout>
 )
