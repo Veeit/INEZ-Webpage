@@ -46,11 +46,11 @@ const CountdownPage = () => (
     <div className="dataProtection navigation">
         <div className="countdown">
           <h2>Ausbildungs ende:</h2>
-          <Countdown date={Date.parse('31 Jul 2020 18:00:00 GMT')} renderer={rendererEndeAusbildung} />
+          <Countdown date={Date.parse('15 Jul 2020 18:00:00 GMT')} renderer={rendererEndeAusbildung} />
         </div>
         <div className="countdown">
           <h2>Schriftliche Prüfung:</h2>
-          <Countdown date={Date.parse('18 Jun 2020 18:00:00 GMT')} renderer={rendererSchriftlichePrueftung} />
+          <Countdown date={Date.parse('19 Jun 2020 7:45:00 GMT')} renderer={rendererSchriftlichePrueftung} />
         </div>
         <div className="countdown">
           <h2>Abgabe der Doku:</h2>
