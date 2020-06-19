@@ -45,7 +45,7 @@ const muendlichePrufung = () => <span className="done">Die Mündliche Prüfung i
 const renderMuendlichePrufung = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
     // Render a completed state
-    return <AbgabeDoku />;
+    return <muendlichePrufung />;
   } else {
     // Render a countdown
   return <span>{days}:{hours}:{minutes}:{seconds}</span>;
@@ -62,7 +62,7 @@ const CountdownPage = () => (
         </div>
         <div className="countdown">
           <h2>Mündliche Prüfung:</h2>
-          <Countdown date={Date.parse('19 Jun 2020 7:45:00 GMT')} renderer={renderMuendlichePrufung} />
+          <Countdown date={Date.parse('24 Jun 2020 8:30:00 GMT')} renderer={renderMuendlichePrufung} />
         </div>
         <div className="countdown">
           <h2>Schriftliche Prüfung:</h2>
