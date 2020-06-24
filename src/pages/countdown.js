@@ -16,7 +16,7 @@ const rendererEndeAusbildung = ({ days, hours, minutes, seconds, completed }) =>
   }
 };
 
-const SchriftlichePrueftung = () => <span className="done">Schriftlicheprüfung ist geschrieben</span>;
+const SchriftlichePrueftung = () => <span className="done">Done</span>;
 
 const rendererSchriftlichePrueftung = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -28,7 +28,7 @@ const rendererSchriftlichePrueftung = ({ days, hours, minutes, seconds, complete
   }
 };
 
-const AbgabeDoku = () => <span className="done">Die Dokumentation ist Abgeben</span>;
+const AbgabeDoku = () => <span className="done">Done</span>;
 
 const rendererAbgabeDoku = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -40,7 +40,7 @@ const rendererAbgabeDoku = ({ days, hours, minutes, seconds, completed }) => {
   }
 };
 
-const muendlichePrufung = () => <span className="done">Die Mündliche Prüfung ist gehalten!</span>;
+const muendlichePrufung = () => <span className="done">Done</span>;
 
 const renderMuendlichePrufung = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
@@ -61,8 +61,8 @@ const CountdownPage = () => (
           <Countdown date={Date.parse('15 Jul 2020 18:00:00 GMT')} renderer={rendererEndeAusbildung} />
         </div>
         <div className="countdown">
-          <h2>Mündliche Prüfung:</h2>
-          <Countdown date={Date.parse('24 Jun 2020 8:30:00 GMT')} renderer={renderMuendlichePrufung} />
+          <h2>Mündliche Prüfung (Mike):</h2>
+          <Countdown date={Date.parse('07 Jul 2020 9:30:00 GMT')} renderer={renderMuendlichePrufung} />
         </div>
         <div className="countdown">
           <h2>Schriftliche Prüfung:</h2>
