@@ -1,14 +1,14 @@
 var plugins = [{
-      plugin: require('/Users/veitprogl/Documents/Git/INEZ-Webpage/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/User/Documents/INEZ-Webpage/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/veitprogl/Documents/Git/INEZ-Webpage/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/User/Documents/INEZ-Webpage/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Veit Progl","short_name":"Veit Progl","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/logo.png"},
     },{
-      plugin: require('/Users/veitprogl/Documents/Git/INEZ-Webpage/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/Users/User/Documents/INEZ-Webpage/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/veitprogl/Documents/Git/INEZ-Webpage/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('C:/Users/User/Documents/INEZ-Webpage/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-156195420-1"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
