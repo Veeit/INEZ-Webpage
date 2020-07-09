@@ -4,7 +4,8 @@ import Countdown from 'react-countdown';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import "../components/sass/Infinity.sass"
+//import "../components/sass/Infinity.sass"
+import "../components/sass/Boke-Effect.sass"
 import BodyClassName from 'react-body-classname';
 
 const EndeAusbildung = () => <span className="done">Ausbildung ist beendet</span>;
@@ -18,6 +19,28 @@ const CountdownPage = () => (
 
   <Layout>
     <SEO title="Countdown" />
+    <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <div className="dataProtection navigation ">
         <div className="countdown">
           <h2>Ausbildungs ende:</h2>
