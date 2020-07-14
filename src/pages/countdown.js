@@ -44,7 +44,7 @@ const CountdownPage = () => (
     <div className="dataProtection navigation ">
         <div className="countdown">
           <h2>Ausbildungs ende:</h2>
-          <Countdown date={Date.parse('15 Jul 2020 16:00:00 GMT')} renderer={ rendererEndeAusbildung}/>
+          <Countdown date={Date.parse('15 Jul 2020 13:00:00 GMT')} renderer={ rendererEndeAusbildung}/>
           
         </div>
     </div>
